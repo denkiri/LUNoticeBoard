@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help"
+    android:orientation="vertical"
+    android:background="@color/lu_dark"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/lu_dark"
+        android:text="Secretary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/lu_white"
+        android:textSize="15dp"
+        android:background="@color/lu_dark"
+        android:text="Secretary login into the app using provided password and username by Admin by clicking on 'Notice Upload.After successful login secretary selects notice to upload by clicking 'select notice button',types notice title and finally uploads notice by clicking 'post notice button'
+"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="218dp"
+        android:textColor="@color/lu_white"
+        android:textSize="15dp"
+        android:background="@color/lu_dark"
+        android:text="Secretary can change username and password after login"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentLeft="true"
+        />
+
+</RelativeLayout>

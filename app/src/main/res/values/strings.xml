@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lu NoticeBoard</string>
+    <string name="title_activity_sec">Lu NoticeBoard</string>
+    <string name="view_notice">Other Departments</string>
+    <string name="sat_notices">SAT</string>
+    <string name="education_notices">Education</string>
+    <string name="hds_notices">HDS</string>
+    <string name="business_notices">Business</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/notice3"
+    tools:context="com.example.dennis.lunoticeboard.NoticeApload">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/welcome"
+        android:background="@color/lu_dark"
+        android:layout_below="@id/logbtn"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="10dp"
+        android:text="Secretary:"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logbtn"
+        android:layout_toRightOf="@id/welcome"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/secname"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:textSize="20sp"
+        android:background="@color/lu_dark"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="10dp"
+
+        android:id="@+id/department"
+        android:text="Department:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_toRightOf="@id/department"
+        android:textColor="@color/lu_dark"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/depname"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/logbtn"
+        android:text="Logout"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/notice"
+        android:background="@color/lu_dark"
+        android:layout_below="@id/department"
+        android:layout_marginRight="10dp"
+        android:text="Notice:"/>
+
+
+    <Button
+        android:text="Select Notice TO Upload"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/department"
+        android:layout_marginBottom="40dp"
+        android:layout_toRightOf="@id/notice"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="40dp"
+        android:background="@color/lu_dark"
+        android:layout_below="@id/notice"
+        android:layout_marginRight="10dp"
+        android:text="Notice Title:"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/name"
+        android:hint="Enter Notice Title"
+        android:layout_marginBottom="40dp"
+        android:layout_below="@id/notice"
+        android:textColor="@color/lu_dark"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+
+    <Button
+        android:text="Upload NOtice"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/name"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chage"
+        android:text="Change password"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/button2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/school"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/chage"
+        />
+
+
+</RelativeLayout>
